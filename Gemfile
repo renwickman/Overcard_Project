@@ -32,7 +32,7 @@ gem 'hirb'
 
 gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'simple_form', '~> 3.0.2'
-gem 'devise', '~> 3.4.1'
+gem 'devise', '~> 4.7.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
