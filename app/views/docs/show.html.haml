@@ -1,0 +1,8 @@
+.wrapper_with_padding
+    #doc_show
+        %h1.title= @doc.title
+        %p= simple_format(@doc.content)
+
+    .buttons
+        = link_to "Fix Card", edit_doc_path(@doc), class: "button"
+        = link_to "Trash Card!", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?" }, class: "button"
